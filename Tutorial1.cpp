@@ -88,7 +88,7 @@ int main()
 }
 
 /* Numeric Variables
-Math between 2 integers will give an interger answer.*/
+Math between 2 integers will give an interger answer.
 #include <iostream>
 #include <cmath> //packages
 
@@ -119,3 +119,28 @@ int main()
 
   return 0;
 }
+*/
+
+/* User Input
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+  int age;
+  cout << "Enter your age: ";
+  cin >> age;
+  cout << "Your are " << age << " years old.";
+  string name;
+  cout << "Enter your name: ";
+  getline(cin, name); //Used for string inputs
+
+  cout << "Hello " << name;
+
+  return 0;
+}
+*/
+
+/* Build a Calculator */
